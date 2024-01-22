@@ -14,7 +14,7 @@ The baseline file contains the comparison algorithms in the paper, including PDR
 
 ## How to Run
 ### Train
-By default, the code is running in the training mode on a single gpu. For running the code, one can use the following command:
+By default, the code is running in the training mode on a single GPU. For running the code, one can use the following command:
 ```bash
 python main.py --task=vrp100
 ```
@@ -25,7 +25,7 @@ python main.py --task=vrp100 --gpu=0 --n_glimpses=1 --use_tanh=False
 ```
 There is a full list of all configs in the ``config.py`` file. Also, task-specific parameters are available in ``task_specific_params.py``
 ### Inference
-For running the trained model for inference, it is possible to turn off the training mode. For this, you need to specify the directory of the trained model, otherwise, random model will be used for decoding:
+For running the trained model for inference, it is possible to turn off the training mode. For this, you need to specify the directory of the trained model, otherwise, a random model will be used for decoding:
 ```bash
 python main.py --task=vrp100 --is_train=False --model_dir=./path_to_your_saved_checkpoint
 ```
