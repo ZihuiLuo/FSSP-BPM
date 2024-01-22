@@ -1,0 +1,20 @@
+﻿  PDR-Meta-heuristic.cpp
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(482,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(505,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(643,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(649,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(815,24): warning C4273: “round”: dll 链接不一致
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(533,44): message : 参见“round”的前一个定义
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(870,20): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1040,53): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1042,70): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1043,75): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1095,55): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1096,72): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1097,77): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1122,32): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1282,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1576,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1583,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\PDR-Meta-heuristic.cpp(1591,23): warning C4018: “<”: 有符号/无符号不匹配
+  PDR-Meta-heuristic.vcxproj -> C:\Users\lenovo\Desktop\baseline\SchedulingModule\PDR_Meta-heuristic\Debug\PDR-Meta-heuristic.exe

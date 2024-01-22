@@ -1,0 +1,82 @@
+﻿  GA_batch.cpp
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(47,24): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(61,27): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(62,9): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(62,23): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(63,9): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(78,43): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(78,43): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(78,43): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(78,43): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(78,43): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(80,41): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(80,41): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(80,41): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(80,41): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(80,41): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(85,40): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(85,40): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(85,40): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(85,40): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(85,40): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(98,43): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(98,43): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(98,43): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(98,43): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(98,43): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(99,43): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(99,43): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(99,43): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(99,43): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(99,43): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(100,43): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(100,43): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(100,43): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(100,43): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(100,43): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(111,40): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(111,40): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(111,40): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(111,40): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(111,40): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(112,40): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(112,40): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(112,40): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(112,40): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(112,40): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(113,40): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(113,40): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(113,40): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(113,40): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(113,40): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(177,24): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(200,24): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(235,20): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(237,28): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(240,28): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(260,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(263,24): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(264,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(265,31): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,71): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,71): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,71): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,71): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,71): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,103): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,103): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,103): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,103): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,103): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,135): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,135): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,135): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,135): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,135): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,167): warning C4244: “参数”: 从“_Ty”转换到“const unsigned __int64”，可能丢失数据
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,167): warning C4244:         with
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,167): warning C4244:         [
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,167): warning C4244:             _Ty=double
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(331,167): warning C4244:         ]
+E:\我的坚果云\WASA 2021\实验代码\GA_batch\GA_batch.cpp(371,5): warning C4102: “std”: 未引用的标签
+  GA_batch.vcxproj -> E:\我的坚果云\WASA 2021\实验代码\GA_batch\x64\Debug\GA_batch.exe

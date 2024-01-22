@@ -1,0 +1,4 @@
+﻿  ACO_batch.cpp
+C:\Users\lenovo\Desktop\ACO_batch\ACO_batch.cpp(362,7): warning C4101: “cBuf”: 未引用的局部变量
+C:\Users\lenovo\Desktop\ACO_batch\ACO_batch.cpp(408,7): warning C4101: “cBuf”: 未引用的局部变量
+  ACO_batch.vcxproj -> C:\Users\lenovo\Desktop\ACO_batch\Debug\ACO_batch.exe

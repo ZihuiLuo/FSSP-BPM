@@ -1,0 +1,5 @@
+﻿  GA_batch.cpp
+C:\Users\luozi\Desktop\GA_batch\GA_batch.cpp(99,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\luozi\Desktop\GA_batch\GA_batch.cpp(119,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\luozi\Desktop\GA_batch\GA_batch.cpp(296,20): warning C4018: “<”: 有符号/无符号不匹配
+  GA_batch.vcxproj -> C:\Users\luozi\Desktop\GA_batch\Debug\GA_batch.exe

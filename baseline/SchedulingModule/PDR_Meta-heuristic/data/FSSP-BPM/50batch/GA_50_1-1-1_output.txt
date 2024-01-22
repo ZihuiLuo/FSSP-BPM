@@ -1,0 +1,93 @@
+RANDOM result: 
+
+
+finishtime[0][2][0]:103
+finishtime[1][2][0]:211
+finishtime[2][2][0]:344
+finishtime[3][2][0]:286
+finishtime[4][2][0]:156
+finishtime[5][2][0]:243
+
+Makespan = 344
+FIFO result: 
+
+
+finishtime[0][2][0]:266
+finishtime[1][2][0]:119
+finishtime[2][2][0]:173
+finishtime[3][2][0]:307
+finishtime[4][2][0]:223
+finishtime[5][2][0]:343
+
+Makespan = 343
+LIFO result: 
+
+
+finishtime[0][2][0]:339
+finishtime[1][2][0]:297
+finishtime[2][2][0]:243
+finishtime[3][2][0]:185
+finishtime[4][2][0]:146
+finishtime[5][2][0]:91
+
+Makespan = 339
+LPT result: 
+
+
+finishtime[0][2][0]:266
+finishtime[1][2][0]:119
+finishtime[2][2][0]:173
+finishtime[3][2][0]:307
+finishtime[4][2][0]:223
+finishtime[5][2][0]:343
+
+Makespan = 343
+SPT result: 
+
+
+finishtime[0][2][0]:180
+finishtime[1][2][0]:342
+finishtime[2][2][0]:288
+finishtime[3][2][0]:134
+finishtime[4][2][0]:233
+finishtime[5][2][0]:91
+
+Makespan = 342
+GA result: 
+
+
+
+Makespan = 343
+ABC result: 
+
+
+finishtime[0][2][0]:195
+finishtime[1][2][0]:252
+finishtime[2][2][0]:306
+finishtime[3][2][0]:98
+finishtime[4][2][0]:152
+finishtime[5][2][0]:338
+
+Makespan = 338
+ACO result: 
+
+
+finishtime[0][2][0]:339
+finishtime[1][2][0]:150
+finishtime[2][2][0]:204
+finishtime[3][2][0]:242
+finishtime[4][2][0]:296
+finishtime[5][2][0]:91
+
+Makespan = 339
+ACO-TS result: 
+
+
+finishtime[0][2][0]:339
+finishtime[1][2][0]:204
+finishtime[2][2][0]:150
+finishtime[3][2][0]:293
+finishtime[4][2][0]:254
+finishtime[5][2][0]:91
+
+Makespan = 339

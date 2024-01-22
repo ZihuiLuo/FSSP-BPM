@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="ygg.mistgpu.xyz" id="bab613c0-6fe6-4a95-8fdb-b026452febb3" port="61510" customName="server_0" nameFormat="CUSTOM">
+        <option name="customName" value="server_0" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

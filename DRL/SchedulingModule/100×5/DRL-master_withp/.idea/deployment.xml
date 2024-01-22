@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="server_0" createEmptyFolders="true">
+    <serverData>
+      <paths name="mist@ygg.mistgpu.xyz:61510">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/mist/temp/HFSP" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="server_0">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/temp/HFSP" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
