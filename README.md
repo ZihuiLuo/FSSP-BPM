@@ -1,14 +1,23 @@
 FSSP-BPM
+
 Paper "Flow Shop Scheduling with Batch Processing Machines via Deep Reinforcement Learning for Industrial Internet of Things"
 
+
 About the baseline file
+
 The baseline file contains the comparison algorithms in the paper, including PDRs (FIFO, LIFO, LPT, SPT), ACO, GA, TS, and DR-G.
 
+
 About the DRL file:
+
 Dependencies
+
 Numpy
+
 tensorflow>=1.2
+
 tqdm
+
 How to Run
 Train
 By default, the code is running in the training mode on a single gpu. For running the code, one can use the following command:
