@@ -39,7 +39,7 @@ python main.py --task=vrp100 --is_train=False --infer_type=single --model_dir=./
 ### Logs
 All logs are stored in the ``result.txt`` file stored in the ``./logs/task_date_time`` directory. In our trained model, some ".meta" files larger than 100.00 MB exceeded GitHub's file size limit, so we did not upload them.
 
-## Sample FSP/FSSP-BPM scheduling solution
+## Sample FSSP/FSSP-BPM scheduling solution
 
 ## Acknowledgements
 Thanks to [pemami4911/neural-combinatorial-rl-pytorch](https://github.com/pemami4911/neural-combinatorial-rl-pytorch) and the paper "Reinforcement Learning for Solving the Vehicle Routing Problem" for getting the idea of restructuring the code.
