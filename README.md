@@ -3,8 +3,7 @@ Paper "Flow Shop Scheduling with Batch Processing Machines via Deep Reinforcemen
 
 
 # About the baseline file
-The baseline file contains the comparison algorithms in the paper, including PDRs (FIFO, LIFO, LPT, SPT), ACO, GA, TS, and DR-G.
-
+The baseline file contains the comparison algorithms in the paper, including PDRs (FIFO, LIFO, LPT, SPT), ACO, GA, TS, and DR_G. And DRL_IG you can read the paper "Scheduling optimization for flow-shop based on deep reinforcement learning and iterative greedy method" (DOI: 10.13195/j.kzyjc.2020.0608).
 
 # About the DRL file:
 ## Dependencies
