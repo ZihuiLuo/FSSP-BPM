@@ -14,7 +14,7 @@ The baseline file contains the comparison algorithms in the paper, including PDR
 ### Train
 By default, the code is running in the training mode on a single GPU. For running the code, one can use the following command:
 ```bash
-python main.py --task=vrp100
+python main.py
 ```
 
 It is possible to add other config parameters like:
