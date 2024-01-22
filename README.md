@@ -9,7 +9,6 @@ The baseline file contains the comparison algorithms in the paper, including PDR
 ## Dependencies
 * Numpy
 * [tensorflow](https://www.tensorflow.org/)>=1.2
-* tqdm
 
 ## How to Run
 ### Train
