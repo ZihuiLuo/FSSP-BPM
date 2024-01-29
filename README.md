@@ -22,7 +22,7 @@ python main.py
 
 It is possible to add other config parameters like:
 ```bash
-python main.py --task=vrp100 --gpu=0 --n_glimpses=1 --use_tanh=False 
+python main.py --gpu=0 --n_glimpses=1 --use_tanh=False 
 ```
 There is a full list of all configs in the ``config.py`` file. Also, task-specific parameters are available in "task_specific_params.py".
 
@@ -33,7 +33,7 @@ python main.py --is_train=False --model_dir=./path_to_your_saved_checkpoint
 ```
 The default inference is run in batch mode, meaning that all testing instances are fed simultaneously. It is also possible to do inference in a single mode, which means that we decode instances one by one. The latter case is used for reporting the runtimes and it will display detailed reports. For running the inference with single mode, you can try:
 ```bash
-python main.py --task=vrp100 --is_train=False --infer_type=single --model_dir=./path_to_your_saved_checkpoint
+python main.py --is_train=False --infer_type=single --model_dir=./path_to_your_saved_checkpoint
 ```
 
 ### Logs
