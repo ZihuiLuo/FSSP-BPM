@@ -5,7 +5,7 @@ c++:
 2. CMake: VERSION 3.29.0
 3. Visual Studio 2022 or gcc 11.4.0
 
-make run SOURCE=/examples/Solver_FSSP/Solver_FSSP.cc
+make run SOURCE=/examples/Solver/Solver.cc
 
 
 python:
