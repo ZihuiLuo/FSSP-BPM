@@ -56,7 +56,7 @@ std::uniform_real_distribution<double> u(0, 1); //随机数分布对象
 std::uniform_real_distribution<double> u1(-1, 1); //随机数分布对象
 
 //所有算法共有的与加工有关的参数
-clock_t Start, Finish; //计算运行时间
+clock_t Start, Finish1, Finish; //计算运行时间
 #define populationnumber1 1
 #define display 1*24*2 //输出结果打印，目前定义以15minute为一个小间隔，两天为一个周期
 vector< vector < vector<int> > > usetime; //第几个订单第几道工序的第几个机器的加工用时；
@@ -1314,15 +1314,19 @@ int main()
 	///////////////////////遗传算法GA
 	Start = clock();
 	initialization();    //初始化种群；
+	Finish1 = clock();
 	for (int g = 0; g < G; g++) {
-		for (int c = 0; c < populationnumber; c++)//计算每个个体适应度并存在ttime中；
-		{
-			fitness(c);
-			ttime[c] = makespan;
+		if(((double)(Finish1 - Start) / CLOCKS_PER_SEC) <= 7200){
+			for (int c = 0; c < populationnumber; c++)//计算每个个体适应度并存在ttime中；
+			{
+				fitness(c);
+				ttime[c] = makespan;
+			}
+			select();     //选择操作；
+			crossover();  //交叉操作；
+			mutation();   //变异操作；
 		}
-		select();     //选择操作；
-		crossover();  //交叉操作；
-		mutation();   //变异操作；
+		Finish1 = clock();
 	}
 	int flg8 = ttime[0];
 	int flg9 = 0;
