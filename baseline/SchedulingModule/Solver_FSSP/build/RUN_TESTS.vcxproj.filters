@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\c4ad7713537ea71701f63f6f11eab1f8\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{00BFF20B-FA73-3E6F-9ACF-E5D0C97E1D52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

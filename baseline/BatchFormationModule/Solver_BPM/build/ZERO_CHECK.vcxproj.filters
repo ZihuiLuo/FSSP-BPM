@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_BPM\build\CMakeFiles\dde3bcd5094c368ecd2bc189d90fd7e5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F7ECBADF-FD04-342A-AFD2-6604EB159FA2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

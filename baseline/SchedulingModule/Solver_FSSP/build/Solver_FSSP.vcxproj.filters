@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\Solver_FSSP.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{61A1DA8C-B48D-3138-A309-DC4977CB4C96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

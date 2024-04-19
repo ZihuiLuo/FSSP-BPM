@@ -1,0 +1,52 @@
+Start testing: Apr 01 21:14 中国标准时间
+----------------------------------------------------------
+1/1 Testing: test_Solver_FSSP
+1/1 Test: test_Solver_FSSP
+Command: "D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build/Release/bin/Solver_FSSP.exe"
+Directory: D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build
+"test_Solver_FSSP" start time: Apr 01 21:14 中国标准时间
+Output:
+----------------------------------------------------------
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1711977277.236074   12552 Solver_FSSP.cc:167] Solution:
+I0000 00:00:1711977277.236249   12552 Solver_FSSP.cc:221] Optimal Schedule Length: 2776
+I0000 00:00:1711977277.236283   12552 Solver_FSSP.cc:222] 
+Machine 0: job_5_task_0   job_29_task_0  job_49_task_0  job_43_task_0  job_48_task_0  job_38_task_0  job_1_task_0   job_26_task_0  job_34_task_0  job_36_task_0  job_7_task_0   job_47_task_0  job_30_task_0  job_32_task_0  job_11_task_0  job_45_task_0  job_40_task_0  job_35_task_0  job_39_task_0  job_0_task_0   job_23_task_0  job_41_task_0  job_31_task_0  job_44_task_0  job_2_task_0   job_37_task_0  job_27_task_0  job_42_task_0  job_20_task_0  job_15_task_0  job_33_task_0  job_17_task_0  job_10_task_0  job_46_task_0  job_21_task_0  job_12_task_0  job_4_task_0   job_9_task_0   job_25_task_0  job_18_task_0  job_14_task_0  job_13_task_0  job_16_task_0  job_8_task_0   job_3_task_0   job_6_task_0   job_19_task_0  job_28_task_0  job_22_task_0  job_24_task_0  
+           [0,9]          [9,26]         [26,30]        [30,68]        [68,132]       [132,135]      [135,136]      [136,211]      [211,220]      [220,266]      [266,274]      [274,285]      [285,361]      [361,365]      [365,375]      [375,465]      [465,539]      [539,605]      [605,698]      [698,722]      [722,736]      [736,765]      [765,861]      [861,947]      [947,1004]     [1004,1068]    [1068,1164]    [1164,1232]    [1232,1257]    [1257,1294]    [1294,1310]    [1310,1379]    [1379,1418]    [1418,1468]    [1468,1560]    [1560,1644]    [1644,1679]    [1679,1690]    [1690,1775]    [1775,1788]    [1788,1847]    [1847,1927]    [1927,2007]    [2007,2100]    [2100,2186]    [2186,2241]    [2241,2260]    [2260,2293]    [2293,2338]    [2338,2411]    
+Machine 1: job_5_task_1   job_29_task_1  job_49_task_1  job_43_task_1  job_48_task_1  job_38_task_1  job_1_task_1   job_26_task_1  job_34_task_1  job_7_task_1   job_47_task_1  job_30_task_1  job_32_task_1  job_45_task_1  job_40_task_1  job_36_task_1  job_11_task_1  job_39_task_1  job_41_task_1  job_0_task_1   job_23_task_1  job_31_task_1  job_44_task_1  job_2_task_1   job_37_task_1  job_35_task_1  job_42_task_1  job_27_task_1  job_20_task_1  job_15_task_1  job_33_task_1  job_17_task_1  job_10_task_1  job_46_task_1  job_21_task_1  job_12_task_1  job_9_task_1   job_25_task_1  job_4_task_1   job_14_task_1  job_18_task_1  job_13_task_1  job_16_task_1  job_8_task_1   job_3_task_1   job_6_task_1   job_19_task_1  job_28_task_1  job_22_task_1  job_24_task_1  
+           [9,23]         [26,47]        [47,101]       [101,128]      [132,139]      [139,183]      [183,240]      [240,246]      [246,292]      [292,349]      [349,391]      [391,418]      [418,482]      [482,548]      [548,589]      [589,628]      [628,700]      [700,770]      [770,826]      [826,877]      [877,933]      [933,977]      [977,1018]     [1018,1100]    [1100,1196]    [1196,1233]    [1233,1277]    [1277,1284]    [1284,1345]    [1345,1393]    [1393,1425]    [1425,1463]    [1463,1485]    [1485,1572]    [1572,1645]    [1645,1703]    [1703,1782]    [1782,1798]    [1798,1880]    [1880,1898]    [1898,1969]    [1969,2047]    [2047,2119]    [2119,2207]    [2207,2254]    [2254,2333]    [2333,2415]    [2415,2501]    [2501,2551]    [2551,2646]    
+Machine 2: job_5_task_2   job_29_task_2  job_43_task_2  job_48_task_2  job_26_task_2  job_38_task_2  job_34_task_2  job_30_task_2  job_47_task_2  job_32_task_2  job_45_task_2  job_40_task_2  job_36_task_2  job_11_task_2  job_39_task_2  job_1_task_2   job_49_task_2  job_0_task_2   job_41_task_2  job_23_task_2  job_31_task_2  job_44_task_2  job_7_task_2   job_2_task_2   job_37_task_2  job_35_task_2  job_27_task_2  job_20_task_2  job_42_task_2  job_33_task_2  job_15_task_2  job_17_task_2  job_10_task_2  job_46_task_2  job_12_task_2  job_9_task_2   job_4_task_2   job_14_task_2  job_13_task_2  job_16_task_2  job_8_task_2   job_3_task_2   job_6_task_2   job_18_task_2  job_19_task_2  job_21_task_2  job_28_task_2  job_25_task_2  job_22_task_2  job_24_task_2  
+           [23,56]        [56,138]       [138,161]      [161,241]      [246,259]      [259,349]      [349,417]      [418,434]      [434,504]      [504,518]      [548,608]      [608,662]      [662,749]      [749,761]      [770,787]      [787,841]      [841,845]      [877,885]      [885,944]      [944,1029]     [1029,1044]    [1044,1104]    [1104,1139]    [1139,1154]    [1196,1281]    [1281,1309]    [1309,1363]    [1363,1410]    [1410,1435]    [1435,1484]    [1484,1559]    [1559,1603]    [1603,1686]    [1686,1754]    [1754,1813]    [1813,1888]    [1888,1961]    [1961,2057]    [2057,2152]    [2152,2214]    [2214,2259]    [2259,2306]    [2333,2406]    [2406,2449]    [2449,2479]    [2479,2515]    [2515,2517]    [2517,2588]    [2588,2653]    [2653,2654]    
+Machine 3: job_5_task_3   job_29_task_3  job_43_task_3  job_48_task_3  job_26_task_3  job_38_task_3  job_30_task_3  job_34_task_3  job_32_task_3  job_45_task_3  job_40_task_3  job_36_task_3  job_47_task_3  job_39_task_3  job_0_task_3   job_1_task_3   job_23_task_3  job_41_task_3  job_31_task_3  job_2_task_3   job_37_task_3  job_44_task_3  job_35_task_3  job_20_task_3  job_27_task_3  job_33_task_3  job_42_task_3  job_17_task_3  job_15_task_3  job_10_task_3  job_46_task_3  job_12_task_3  job_9_task_3   job_4_task_3   job_49_task_3  job_14_task_3  job_13_task_3  job_7_task_3   job_16_task_3  job_8_task_3   job_3_task_3   job_6_task_3   job_11_task_3  job_19_task_3  job_28_task_3  job_18_task_3  job_22_task_3  job_21_task_3  job_24_task_3  job_25_task_3  
+           [56,145]       [145,173]      [173,251]      [251,303]      [303,366]      [366,444]      [444,461]      [461,534]      [534,611]      [611,669]      [669,754]      [754,777]      [777,820]      [820,885]      [885,944]      [944,1029]     [1029,1112]    [1112,1211]    [1211,1213]    [1213,1286]    [1286,1342]    [1342,1350]    [1350,1419]    [1419,1430]    [1430,1494]    [1494,1555]    [1555,1607]    [1607,1625]    [1625,1713]    [1713,1779]    [1779,1830]    [1830,1891]    [1891,1964]    [1964,2051]    [2051,2092]    [2092,2171]    [2171,2184]    [2184,2241]    [2241,2260]    [2260,2319]    [2319,2406]    [2406,2454]    [2454,2549]    [2549,2582]    [2582,2635]    [2635,2656]    [2656,2664]    [2664,2672]    [2672,2685]    [2685,2774]    
+Machine 4: job_5_task_4   job_29_task_4  job_43_task_4  job_48_task_4  job_26_task_4  job_30_task_4  job_38_task_4  job_34_task_4  job_32_task_4  job_45_task_4  job_36_task_4  job_40_task_4  job_47_task_4  job_39_task_4  job_0_task_4   job_1_task_4   job_23_task_4  job_31_task_4  job_41_task_4  job_2_task_4   job_37_task_4  job_44_task_4  job_35_task_4  job_20_task_4  job_27_task_4  job_33_task_4  job_42_task_4  job_17_task_4  job_15_task_4  job_10_task_4  job_46_task_4  job_12_task_4  job_9_task_4   job_4_task_4   job_49_task_4  job_14_task_4  job_13_task_4  job_16_task_4  job_7_task_4   job_3_task_4   job_6_task_4   job_11_task_4  job_8_task_4   job_19_task_4  job_28_task_4  job_18_task_4  job_21_task_4  job_22_task_4  job_24_task_4  job_25_task_4  
+           [145,180]      [180,225]      [251,274]      [303,400]      [400,466]      [466,552]      [552,575]      [575,673]      [673,720]      [720,775]      [777,832]      [832,864]      [864,930]      [930,1012]     [1012,1079]    [1079,1178]    [1178,1261]    [1261,1269]    [1269,1289]    [1289,1346]    [1346,1408]    [1408,1448]    [1448,1470]    [1470,1518]    [1518,1568]    [1568,1620]    [1620,1658]    [1658,1731]    [1731,1784]    [1784,1879]    [1879,1958]    [1958,1976]    [1976,2051]    [2051,2144]    [2144,2173]    [2173,2210]    [2210,2307]    [2307,2404]    [2404,2481]    [2481,2528]    [2528,2560]    [2560,2575]    [2575,2603]    [2603,2642]    [2642,2678]    [2678,2738]    [2738,2747]    [2747,2764]    [2764,2774]    [2774,2776]    
+
+I0000 00:00:1711977277.236336   12552 Solver_FSSP.cc:229] Statistics
+I0000 00:00:1711977277.236344   12552 Solver_FSSP.cc:230] CpSolverResponse summary:
+status: OPTIMAL
+objective: 2776
+best_bound: 2776
+integers: 251
+booleans: 0
+conflicts: 0
+branches: 0
+propagations: 0
+integer_propagations: 0
+restarts: 0
+lp_iterations: 0
+walltime: 13.1628
+usertime: 13.1628
+deterministic_time: 21.1898
+gap_integral: 16.5301
+solution_fingerprint: 0x4492a970dc55cdb4
+
+<end of output>
+Test time =  13.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_Solver_FSSP" end time: Apr 01 21:14 中国标准时间
+"test_Solver_FSSP" time elapsed: 00:00:13
+----------------------------------------------------------
+
+End testing: Apr 01 21:14 中国标准时间

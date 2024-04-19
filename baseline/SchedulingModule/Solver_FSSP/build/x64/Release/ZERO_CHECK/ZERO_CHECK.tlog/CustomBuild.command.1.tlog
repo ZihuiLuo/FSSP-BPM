@@ -1,0 +1,10 @@
+^D:\ORTOOLS\OR-TOOLS_X64_VISUALSTUDIO2022_CPP_V9.9.3963\EXAMPLES\SOLVER_FSSP\BUILD\CMAKEFILES\C4AD7713537EA71701F63F6F11EAB1F8\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP -BD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build/Solver_FSSP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

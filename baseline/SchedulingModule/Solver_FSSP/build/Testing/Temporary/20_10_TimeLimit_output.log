@@ -1,0 +1,62 @@
+Start testing: Apr 01 19:35 中国标准时间
+----------------------------------------------------------
+1/1 Testing: test_Solver_FSSP
+1/1 Test: test_Solver_FSSP
+Command: "D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build/Release/bin/Solver_FSSP.exe"
+Directory: D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build
+"test_Solver_FSSP" start time: Apr 01 19:35 中国标准时间
+Output:
+----------------------------------------------------------
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1711971331.387595   11120 Solver_FSSP.cc:136] Solution:
+I0000 00:00:1711971331.387750   11120 Solver_FSSP.cc:190] Optimal Schedule Length: 1655
+I0000 00:00:1711971331.387784   11120 Solver_FSSP.cc:191] 
+Machine 0: job_4_task_0   job_15_task_0  job_11_task_0  job_18_task_0  job_5_task_0   job_16_task_0  job_12_task_0  job_1_task_0   job_7_task_0   job_3_task_0   job_8_task_0   job_14_task_0  job_2_task_0   job_9_task_0   job_17_task_0  job_13_task_0  job_6_task_0   job_10_task_0  job_19_task_0  job_0_task_0   
+           [0,3]          [3,33]         [33,37]        [37,78]        [78,124]       [124,167]      [167,204]      [204,230]      [230,320]      [320,361]      [361,423]      [423,495]      [495,579]      [579,642]      [642,737]      [737,812]      [814,853]      [853,927]      [927,1024]     [1024,1098]    
+Machine 1: job_4_task_1   job_15_task_1  job_18_task_1  job_5_task_1   job_11_task_1  job_1_task_1   job_7_task_1   job_12_task_1  job_8_task_1   job_16_task_1  job_14_task_1  job_3_task_1   job_2_task_1   job_9_task_1   job_17_task_1  job_13_task_1  job_6_task_1   job_10_task_1  job_19_task_1  job_0_task_1   
+           [3,40]         [40,115]       [115,147]      [147,183]      [183,239]      [239,331]      [331,365]      [365,436]      [436,465]      [465,545]      [545,576]      [576,646]      [646,682]      [682,762]      [762,835]      [835,849]      [853,895]      [927,1018]     [1024,1080]    [1098,1168]    
+Machine 2: job_4_task_2   job_15_task_2  job_18_task_2  job_5_task_2   job_11_task_2  job_1_task_2   job_7_task_2   job_12_task_2  job_8_task_2   job_16_task_2  job_14_task_2  job_3_task_2   job_2_task_2   job_9_task_2   job_17_task_2  job_6_task_2   job_10_task_2  job_13_task_2  job_19_task_2  job_0_task_2   
+           [40,109]       [117,149]      [149,171]      [183,246]      [246,336]      [336,356]      [365,451]      [452,464]      [466,532]      [561,573]      [576,659]      [659,703]      [703,767]      [767,864]      [864,902]      [902,996]      [1018,1043]    [1043,1105]    [1105,1197]    [1197,1281]    
+Machine 3: job_4_task_3   job_18_task_3  job_5_task_3   job_15_task_3  job_1_task_3   job_11_task_3  job_12_task_3  job_7_task_3   job_16_task_3  job_8_task_3   job_3_task_3   job_14_task_3  job_2_task_3   job_9_task_3   job_17_task_3  job_6_task_3   job_13_task_3  job_10_task_3  job_19_task_3  job_0_task_3   
+           [109,192]      [192,272]      [272,321]      [321,368]      [368,429]      [429,438]      [464,502]      [502,586]      [586,610]      [610,707]      [707,713]      [713,793]      [793,839]      [864,920]      [920,1015]     [1015,1093]    [1105,1126]    [1126,1202]    [1202,1267]    [1281,1344]    
+Machine 4: job_4_task_4   job_18_task_4  job_5_task_4   job_15_task_4  job_1_task_4   job_12_task_4  job_11_task_4  job_16_task_4  job_7_task_4   job_3_task_4   job_8_task_4   job_2_task_4   job_14_task_4  job_9_task_4   job_17_task_4  job_6_task_4   job_13_task_4  job_10_task_4  job_19_task_4  job_0_task_4   
+           [192,204]      [273,287]      [321,388]      [388,393]      [429,520]      [520,604]      [604,607]      [610,621]      [621,711]      [713,783]      [783,830]      [839,860]      [860,951]      [951,1033]     [1033,1074]    [1093,1158]    [1158,1188]    [1205,1267]    [1268,1296]    [1344,1416]    
+Machine 5: job_4_task_5   job_18_task_5  job_5_task_5   job_15_task_5  job_1_task_5   job_12_task_5  job_16_task_5  job_11_task_5  job_7_task_5   job_3_task_5   job_8_task_5   job_2_task_5   job_14_task_5  job_9_task_5   job_17_task_5  job_6_task_5   job_13_task_5  job_19_task_5  job_10_task_5  job_0_task_5   
+           [204,240]      [287,365]      [388,391]      [393,467]      [520,578]      [604,635]      [635,686]      [686,688]      [711,802]      [802,819]      [830,903]      [903,956]      [956,1034]     [1034,1115]    [1115,1156]    [1158,1241]    [1241,1278]    [1296,1322]    [1323,1397]    [1416,1494]    
+Machine 6: job_4_task_6   job_18_task_6  job_15_task_6  job_5_task_6   job_1_task_6   job_12_task_6  job_16_task_6  job_11_task_6  job_3_task_6   job_7_task_6   job_2_task_6   job_8_task_6   job_14_task_6  job_9_task_6   job_17_task_6  job_6_task_6   job_19_task_6  job_13_task_6  job_10_task_6  job_0_task_6   
+           [240,310]      [368,413]      [467,478]      [496,498]      [578,648]      [648,747]      [747,807]      [807,811]      [819,864]      [864,914]      [956,966]      [966,1020]     [1043,1086]    [1123,1187]    [1187,1240]    [1241,1333]    [1333,1396]    [1396,1439]    [1439,1483]    [1494,1527]    
+Machine 7: job_4_task_7   job_18_task_7  job_15_task_7  job_5_task_7   job_1_task_7   job_12_task_7  job_16_task_7  job_3_task_7   job_2_task_7   job_7_task_7   job_11_task_7  job_8_task_7   job_14_task_7  job_9_task_7   job_17_task_7  job_6_task_7   job_19_task_7  job_13_task_7  job_10_task_7  job_0_task_7   
+           [310,381]      [413,455]      [530,582]      [582,681]      [681,701]      [747,834]      [834,870]      [870,965]      [966,1037]     [1037,1056]    [1056,1111]    [1111,1152]    [1152,1189]    [1193,1267]    [1267,1273]    [1333,1412]    [1412,1442]    [1442,1529]    [1529,1537]    [1537,1624]    
+Machine 8: job_4_task_8   job_18_task_8  job_15_task_8  job_5_task_8   job_1_task_8   job_12_task_8  job_16_task_8  job_3_task_8   job_2_task_8   job_7_task_8   job_11_task_8  job_8_task_8   job_14_task_8  job_9_task_8   job_17_task_8  job_6_task_8   job_19_task_8  job_13_task_8  job_10_task_8  job_0_task_8   
+           [381,438]      [455,508]      [582,643]      [681,708]      [708,794]      [834,867]      [870,963]      [965,1054]     [1054,1057]    [1057,1145]    [1145,1151]    [1152,1200]    [1200,1225]    [1267,1293]    [1293,1362]    [1412,1440]    [1442,1489]    [1529,1532]    [1537,1595]    [1624,1627]    
+Machine 9: job_4_task_9   job_18_task_9  job_15_task_9  job_5_task_9   job_1_task_9   job_12_task_9  job_16_task_9  job_3_task_9   job_2_task_9   job_7_task_9   job_8_task_9   job_14_task_9  job_11_task_9  job_9_task_9   job_17_task_9  job_6_task_9   job_19_task_9  job_13_task_9  job_10_task_9  job_0_task_9   
+           [438,504]      [508,539]      [643,703]      [708,752]      [794,830]      [867,947]      [963,1059]     [1059,1122]    [1122,1161]    [1161,1228]    [1228,1245]    [1245,1287]    [1287,1320]    [1320,1404]    [1404,1485]    [1485,1503]    [1503,1591]    [1591,1618]    [1618,1627]    [1627,1655]    
+
+I0000 00:00:1711971331.387842   11120 Solver_FSSP.cc:198] Statistics
+I0000 00:00:1711971331.387850   11120 Solver_FSSP.cc:199] CpSolverResponse summary:
+status: FEASIBLE
+objective: 1655
+best_bound: 1503
+integers: 201
+booleans: 32
+conflicts: 0
+branches: 32
+propagations: 0
+integer_propagations: 1674
+restarts: 0
+lp_iterations: 0
+walltime: 5.27333
+usertime: 5.27333
+deterministic_time: 12.0861
+gap_integral: 61.5325
+solution_fingerprint: 0x1012afe2f764ce1
+
+<end of output>
+Test time =   5.28 sec
+----------------------------------------------------------
+Test Passed.
+"test_Solver_FSSP" end time: Apr 01 19:35 中国标准时间
+"test_Solver_FSSP" time elapsed: 00:00:05
+----------------------------------------------------------
+
+End testing: Apr 01 19:35 中国标准时间

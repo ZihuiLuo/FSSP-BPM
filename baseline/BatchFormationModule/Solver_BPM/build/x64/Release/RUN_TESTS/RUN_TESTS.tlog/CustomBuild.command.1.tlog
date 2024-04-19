@@ -1,0 +1,10 @@
+^D:\ORTOOLS\OR-TOOLS_X64_VISUALSTUDIO2022_CPP_V9.9.3963\EXAMPLES\SOLVER_BPM\BUILD\CMAKEFILES\DDE3BCD5094C368ECD2BC189D90FD7E5\RUN_TESTS_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

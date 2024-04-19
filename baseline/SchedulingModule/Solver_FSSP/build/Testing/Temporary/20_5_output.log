@@ -1,0 +1,52 @@
+Start testing: Apr 01 16:06 中国标准时间
+----------------------------------------------------------
+1/1 Testing: test_my_test
+1/1 Test: test_my_test
+Command: "D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/my_test/build/Release/bin/my_test.exe"
+Directory: D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/my_test/build
+"test_my_test" start time: Apr 01 16:06 中国标准时间
+Output:
+----------------------------------------------------------
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1711958775.741939   31204 my_test.cc:128] Solution:
+I0000 00:00:1711958775.742066   31204 my_test.cc:182] Optimal Schedule Length: 1103
+I0000 00:00:1711958775.742099   31204 my_test.cc:183] 
+Machine 0: job_15_task_0  job_10_task_0  job_6_task_0   job_4_task_0   job_11_task_0  job_7_task_0   job_5_task_0   job_9_task_0   job_17_task_0  job_18_task_0  job_1_task_0   job_2_task_0   job_19_task_0  job_13_task_0  job_12_task_0  job_0_task_0   job_14_task_0  job_16_task_0  job_3_task_0   job_8_task_0   
+           [0,14]         [14,16]        [16,53]        [53,71]        [71,110]       [110,168]      [168,209]      [209,229]      [229,251]      [251,287]      [287,379]      [379,454]      [454,519]      [519,600]      [600,691]      [691,718]      [718,751]      [751,839]      [839,933]      [933,989]      
+Machine 1: job_15_task_1  job_6_task_1   job_10_task_1  job_4_task_1   job_11_task_1  job_7_task_1   job_5_task_1   job_18_task_1  job_17_task_1  job_1_task_1   job_9_task_1   job_2_task_1   job_19_task_1  job_13_task_1  job_12_task_1  job_0_task_1   job_14_task_1  job_16_task_1  job_3_task_1   job_8_task_1   
+           [14,55]        [55,57]        [57,116]       [116,131]      [131,163]      [168,249]      [249,300]      [300,301]      [301,395]      [395,418]      [418,458]      [458,524]      [524,617]      [617,704]      [704,720]      [720,799]      [799,877]      [877,920]      [933,938]      [989,1001]     
+Machine 2: job_6_task_2   job_15_task_2  job_4_task_2   job_10_task_2  job_11_task_2  job_7_task_2   job_5_task_2   job_18_task_2  job_17_task_2  job_1_task_2   job_9_task_2   job_2_task_2   job_19_task_2  job_13_task_2  job_12_task_2  job_0_task_2   job_14_task_2  job_16_task_2  job_3_task_2   job_8_task_2   
+           [57,84]        [84,130]       [131,161]      [161,185]      [185,232]      [249,279]      [300,334]      [334,402]      [402,425]      [425,518]      [518,595]      [595,657]      [657,707]      [707,773]      [773,812]      [812,834]      [877,918]      [920,944]      [944,997]      [1001,1055]    
+Machine 3: job_6_task_3   job_15_task_3  job_4_task_3   job_10_task_3  job_11_task_3  job_7_task_3   job_5_task_3   job_18_task_3  job_1_task_3   job_17_task_3  job_2_task_3   job_19_task_3  job_9_task_3   job_12_task_3  job_0_task_3   job_13_task_3  job_14_task_3  job_16_task_3  job_3_task_3   job_8_task_3   
+           [84,138]       [138,161]      [161,255]      [255,278]      [278,310]      [310,392]      [392,489]      [489,548]      [548,570]      [570,657]      [657,721]      [721,723]      [723,814]      [814,840]      [840,933]      [933,955]      [955,967]      [967,1001]     [1001,1082]    [1082,1093]    
+Machine 4: job_6_task_4   job_15_task_4  job_10_task_4  job_11_task_4  job_7_task_4   job_4_task_4   job_5_task_4   job_1_task_4   job_17_task_4  job_18_task_4  job_19_task_4  job_2_task_4   job_9_task_4   job_12_task_4  job_0_task_4   job_13_task_4  job_14_task_4  job_16_task_4  job_3_task_4   job_8_task_4   
+           [138,195]      [195,276]      [278,340]      [340,389]      [392,473]      [473,484]      [489,582]      [582,666]      [666,687]      [687,726]      [726,753]      [753,815]      [815,855]      [855,945]      [945,983]      [983,1017]     [1017,1028]    [1028,1079]    [1082,1092]    [1093,1103]    
+
+I0000 00:00:1711958775.742115   31204 my_test.cc:190] Statistics
+I0000 00:00:1711958775.742119   31204 my_test.cc:191] CpSolverResponse summary:
+status: OPTIMAL
+objective: 1103
+best_bound: 1103
+integers: 101
+booleans: 0
+conflicts: 0
+branches: 0
+propagations: 0
+integer_propagations: 0
+restarts: 0
+lp_iterations: 0
+walltime: 1.28681
+usertime: 1.28681
+deterministic_time: 2.67805
+gap_integral: 2.09414
+solution_fingerprint: 0x4fe9f8eaa9eea38d
+
+<end of output>
+Test time =   1.29 sec
+----------------------------------------------------------
+Test Passed.
+"test_my_test" end time: Apr 01 16:06 中国标准时间
+"test_my_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Apr 01 16:06 中国标准时间

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{87009FC2-955C-3076-B30A-723154B3A110}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>NightlyMemoryCheck</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\c4ad7713537ea71701f63f6f11eab1f8\NightlyMemoryCheck.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\ctest.exe -C Debug -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\NightlyMemoryCheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\ctest.exe -C Release -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\NightlyMemoryCheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\ctest.exe -C MinSizeRel -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\NightlyMemoryCheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\ctest.exe -C RelWithDebInfo -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\NightlyMemoryCheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP -BD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build --check-stamp-file D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.29\Modules\CTest.cmake;D:\CMake\share\cmake-3.29\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.29\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.29\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.29\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;D:\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-config-version.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-generate.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-options.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindCbc.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindClp.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindEigen3.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindSCIP.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\Findre2.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2ConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-config-version.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3Config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3ConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP -BD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build --check-stamp-file D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.29\Modules\CTest.cmake;D:\CMake\share\cmake-3.29\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.29\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.29\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.29\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;D:\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-config-version.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-generate.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-options.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindCbc.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindClp.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindEigen3.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindSCIP.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\Findre2.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2ConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-config-version.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3Config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3ConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP -BD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build --check-stamp-file D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.29\Modules\CTest.cmake;D:\CMake\share\cmake-3.29\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.29\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.29\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.29\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;D:\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-config-version.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-generate.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-options.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindCbc.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindClp.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindEigen3.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindSCIP.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\Findre2.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2ConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-config-version.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3Config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3ConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP -BD:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build --check-stamp-file D:/ORTools/or-tools_x64_VisualStudio2022_cpp_v9.9.3963/examples/Solver_FSSP/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.29\Modules\CTest.cmake;D:\CMake\share\cmake-3.29\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.29\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.29\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.29\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;D:\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-config-version.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-generate.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-options.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\cmake\protobuf-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cbc\CbcTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Cgl\CglTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Clp\ClpTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\CoinUtils\CoinUtilsTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\Osi\OsiTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\absl\abslTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindCbc.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindClp.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindEigen3.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\FindSCIP.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\modules\Findre2.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsConfig.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsTargets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\ortools\ortoolsTargets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2ConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\re2\re2Targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-config-version.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\scip\scip-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-targets-release.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\lib\cmake\utf8_range\utf8_range-targets.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3Config.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3ConfigVersion.cmake;D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\share\eigen3\cmake\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\CMakeFiles\NightlyMemoryCheck">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ORTools\or-tools_x64_VisualStudio2022_cpp_v9.9.3963\examples\Solver_FSSP\build\ZERO_CHECK.vcxproj">
+      <Project>{AEE6DFB6-E364-3204-A30C-DE546622C8A1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
