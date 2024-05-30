@@ -1,9 +1,9 @@
 # FSSP-BPM
-Paper "Flow Shop Scheduling with Batch Processing Machines via Deep Reinforcement Learning for Industrial Internet of Things"
+Paper "Flow-Shop Scheduling with Batch Processing Machines via Deep Reinforcement Learning for Industrial Internet of Things"
 
 
 # About the baseline file
-The baseline file contains the comparison algorithms in the paper, including PDRs (FIFO, LIFO, LPT, SPT), ACO, GA, TS, and DRL_G. And DRL_IG you can read the paper "Scheduling optimization for flow-shop based on deep reinforcement learning and iterative greedy method" (DOI: 10.13195/j.kzyjc.2020.0608).
+The baseline file contains the comparison algorithms in the paper, including PDRs (FIFO, LIFO, LPT, SPT), ACO, GA, TS, and DRL_IG. And DRL_IG you can read the paper "Scheduling optimization for flow-shop based on deep reinforcement learning and iterative greedy method" (DOI: 10.13195/j.kzyjc.2020.0608).
 
 
 # About the DRL file:
