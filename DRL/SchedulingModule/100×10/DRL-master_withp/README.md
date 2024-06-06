@@ -28,7 +28,7 @@ python main.py --task=vrp100 --is_train=False --infer_type=single --model_dir=./
 ```
 ### Logs
 All logs are stored in ``result.txt`` file stored in ``./logs/task_date_time`` directory.
-## Sample FSP scheduling solution
+## Sample FSSP scheduling solution
 
 ## Acknowledgements
 Thanks to [pemami4911/neural-combinatorial-rl-pytorch](https://github.com/pemami4911/neural-combinatorial-rl-pytorch) and the paper "Reinforcement Learning for Solving the Vehicle Routing Problem" for getting the idea of restructuring the code.
