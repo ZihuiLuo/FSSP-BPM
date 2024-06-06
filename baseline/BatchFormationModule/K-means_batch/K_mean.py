@@ -22,46 +22,6 @@ def K_mean_without_capacity(data, k=10, input_dim=5, decode_len=100):
     return plist_center
 '''
 
-'''
-# 考虑了点的拆分，但有BUG
-def K_mean_with_capacity_decompose(data, capacity=50, input_dim=5, decode_len=100):
-    demand = np.array(data[:, -1])
-    data = data[:, :-1]
-    k = math.ceil(np.sum(demand) / capacity)
-    demand_desc = np.argsort(-demand)
-    centers = np.array([data[demand_desc[i]] for i in range(k)])
-    for i in range(100):
-        center_remain = np.array(k * [capacity], dtype=np.float)
-        # point_id : list of center_id(一个点可以有多个类别，当被拆分时)
-        center_p = [[] for _ in range(len(data))]
-        have_to_give = np.copy(demand)
-        while have_to_give.any() != 0:
-            i = np.argsort(-have_to_give)[0]
-            indexes = np.argsort([(np.sum((data[i] - center) ** 2) ** (1 / 2)) / have_to_give[i] for center in centers])
-            # BUG:！！！遍历的顺序和转为path的顺序冲突
-            for index in indexes:
-                if center_remain[index] >= have_to_give[i]:
-                    center_remain[index] -= have_to_give[i]
-                    center_p[i].append(index)
-                    have_to_give[i] = 0
-                else:
-                    have_to_give[i] -= center_remain[index]
-                    center_p[i].append(index)
-                    center_remain[index] = 0
-                if have_to_give[i]<=0:
-                    break
-        # center_id : list of point_id
-        plist_center = [[] for _ in range(k)]
-        for i in range(len(center_p)):
-            for index in center_p[i]:
-                plist_center[index].append(i)
-        new_centers = np.array([np.mean([data[point] for point in row], axis=0) for row in plist_center])
-        if (np.sum(np.abs(centers - new_centers)) < 1e-5):
-            break
-        centers = new_centers
-    return plist_center
-'''
-
 
 # 将分批结果的表示从批次类别转为VRP中的路径
 def plist_center2path(plist_center, data, input_dim=5, decode_len=100):
