@@ -1,7 +1,7 @@
 # FSSP-BPM
 Paper "Flow-Shop Scheduling with Batch Processing Machines via Deep Reinforcement Learning for Industrial Internet of Things"
 
-Some codes and datasets cannot be made public due to the requirements of the project partners. If you have any questions, please contact the first author.
+Some codes and data sets cannot be made public at their request because they involve the production and sales privacy of the partners in the project. If you have any questions, please contact the first author.
 
 
 # About the baseline file
