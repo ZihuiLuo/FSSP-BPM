@@ -58,7 +58,6 @@ double Calculation(Route_Type R[], int Cus, int NewR) {//计算路径规划R的�
 	double T = 0;
 	double D = 0;
 
-
 	//计算单条路径超出容量约束的总量
 	for (int i = 1; i <= Vehicle_Number; ++i)
 		if (R[i].V.size() > 2 && R[i].Load > Capacity)
