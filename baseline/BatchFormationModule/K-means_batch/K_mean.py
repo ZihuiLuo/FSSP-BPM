@@ -68,6 +68,7 @@ def K_mean_with_capacity(data, capacity=50, input_dim=5, decode_len=100):
         centers = new_centers
     return plist_center
 
+
 if __name__=='__main__':
     input_dim = 5
     file = open("test.txt", "r")
