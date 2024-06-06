@@ -1,6 +1,8 @@
 # FSSP-BPM
 Paper "Flow-Shop Scheduling with Batch Processing Machines via Deep Reinforcement Learning for Industrial Internet of Things"
 
+Some codes and datasets cannot be made public due to the requirements of the project partners. If you have any questions, please contact the first author.
+
 
 # About the baseline file
 The baseline file contains the comparison algorithms in the paper, including PDRs (FIFO, LIFO, LPT, SPT), ACO, GA, TS, DRL_DG, DRL_IG, and OR_Tools. 
