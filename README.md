@@ -1,5 +1,6 @@
 # FSSP-BPM
 The extended edition journal paper "Flow-Shop Scheduling with Batch Processing Machines via Deep Reinforcement Learning for Industrial Internet of Things", was published in TETCI.
+
 The basic edition conference paper "Deep Reinforcement Learning Based Intelligent Job Batching in Industrial Internet of Things", was published in WASA 2021 and won the best paper award.
 
 Some codes and datasets cannot be made public at the request of project partners because they involve production and sales privacy. If you have any questions, please contact the first author.
