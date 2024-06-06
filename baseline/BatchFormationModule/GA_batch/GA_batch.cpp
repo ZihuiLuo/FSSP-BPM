@@ -273,7 +273,7 @@ int main() {
 	input.open("../data/input_data_300.txt");
 	outfile.open("../input_data_300_output.txt");
 	if (input.is_open()) {
-		best_solution = 99999999;
+		best_solution = 9999999;
 
 		//initialize the vector
 		Vertex temp;
